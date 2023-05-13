@@ -16,9 +16,9 @@ export default function FullCv(props) {
           <p>Phone Number: {userInfo.phone}</p>
         </div>
         <div className="edu-info">
+        <p className="cv-section">Education:<br /></p>
           {eduInfo.map((entry) =>
           <div>
-            <p className="cv-section">Education:<br /></p>
           <ul>
             <li key={entry.school}>
               School: {entry.school}<br />
@@ -30,9 +30,9 @@ export default function FullCv(props) {
           )}
         </div>
         <div className="job-info">
+        <p className="cv-section">Work Experience:<br /></p>
           {jobInfo.map((entry) =>
           <div>
-            <p className="cv-section">Work Experience:<br /></p>
           <ul>
             <li key={entry.company}>
               Company: {entry.company}<br />

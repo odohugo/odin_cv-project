@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-/* import '../styles/EducationForm.css' */
 
 export default function EducationForm (props) {
   const [school, setSchool] = useState('');
