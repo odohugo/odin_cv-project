@@ -1,0 +1,36 @@
+body{
+  background-color: floralwhite;
+  font-family: 'Courier New', Courier, monospace;
+}
+p{
+  margin: 0;
+}
+.container{
+  margin: 5rem 10vw;
+  padding: 2rem;
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 2rem;
+  row-gap: 1.5rem;
+}
+input{
+  background-color: floralwhite;
+  border: 0;
+  height: 1.4rem;
+  box-shadow: 2px 2px 1px rosybrown;
+  margin-bottom: .3rem;
+}
+button{
+  background-color: crimson;
+  color: aliceblue;
+  width: auto;
+  height: 1.4rem;
+  border: 0;
+  box-shadow: 2px 2px 1px rosybrown;
+  margin: .2rem;
+}
+.full-cv{
+  grid-column: 2/3;
+  grid-row: 1/3;
+}

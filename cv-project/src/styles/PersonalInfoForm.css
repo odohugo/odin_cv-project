@@ -1,0 +1,14 @@
+.userForm{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 0.5rem;
+}
+
+.formBtn{
+  width: 3.2rem;
+}
+.title p{
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
